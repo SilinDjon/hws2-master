@@ -1,0 +1,72 @@
+.message {
+    display: grid;
+    grid-template-areas: 'iit'
+                         'time';
+}
+
+.imageAndText {
+    grid-area: iit;
+    display: grid;
+    justify-items: end;
+}
+
+.imageAndText img {
+    align-self: end;
+    grid-area: ava;
+    max-width: 48px;
+    margin: 0 0 5px 0;
+}
+
+.text {
+    position: relative;
+    grid-area: text;
+    background: #cc0000;
+    padding: 7px 13px;
+    margin: 0 60px 5px 0;
+    border-radius: 10px 10px 0 10px;
+    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03),
+    0px 1px 2px rgba(29, 33, 38, 0.1);
+}
+
+.text:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 100%;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 0 10px;
+    border-color: transparent transparent transparent #0066cc;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: right;
+
+}
+
+.messageText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.time {
+    grid-area: time;
+    text-align: right;
+    margin: 0px 10px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}

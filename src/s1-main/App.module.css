@@ -1,0 +1,19 @@
+.App {
+
+}
+
+.hw {
+    margin-top: 10px;
+    padding: 24px;
+    border: 2px solid #D9D9D9;
+}
+
+.hwTitle {
+
+    margin: 137px 0 0 70px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
