@@ -1,8 +1,8 @@
 import React from 'react'
 import Affair from './affair/Affair'
-import {AffairType, filterAffairs, FilterType} from '../HW2'
+import {AffairType,  FilterType} from '../HW2'
 import s from './Affairs.module.css'
-import affair from "./affair/Affair";
+
 
 type AffairsPropsType = {
     data: AffairType[]
