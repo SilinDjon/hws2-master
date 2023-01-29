@@ -1,36 +1,88 @@
 .button {
+    min-width: 132px;
+    height: 30px;
+    padding: 5px 24px;
+    border-radius: 3px;
+    border: none;
 }
 
 .disabled {
+
+    min-width: 132px;
+    height: 30px;
+    padding: 5px 24px;
+    border-radius: 3px;
+    background: #004D99;
+    opacity: 0.5;
 }
 
 .secondary {
+    min-width: 132px;
+    height: 30px;
+    padding: 5px 24px;
+    border-radius: 3px;
+    border: 1px solid #0066CC;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0066CC;
 }
 
-.default {
+.default{
+    min-width: 132px;
+    height: 30px;
+    padding: 5px 24px;
+    border-radius: 3px;
+    background: #0066CC;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 
 .red {
+    border: #CC1439 1px solid;
+    min-width: 132px;
+    height: 30px;
+    padding: 5px 24px;
+    border-radius: 3px;
+    background: #CC1439;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
 }
 
 .default:hover {
+    background: #0080FF;
 }
 
 .red:hover {
+    background: #FF1A47;
 }
 
 .secondary:hover {
+    background: #E5F0FA;
 }
 
 
 .default:active {
+    background: #0059B3;
 }
 
 .secondary:active {
+    background: #C9E5FF;
 }
 
 .red:active {
+    background: #B31232;
 }
 
 .button:disabled {
+    background: #004D99;
+    opacity: 0.5;
+    border-radius: 3px;
 }
