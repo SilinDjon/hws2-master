@@ -1,9 +1,28 @@
 .select {
+    display: inline-block;
+    width: 165px;
+    height: 24px;
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 2px;
+    font-size: 16px;
+
+
 }
 
 .select:focus {
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 2px;
 }
 
+.select:after {
+
+}
 
 .option:hover {
+
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 2px;
 }
