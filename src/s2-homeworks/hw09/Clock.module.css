@@ -1,14 +1,37 @@
 .buttonsContainer {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+}
+.button {
+    margin: 5px;
 }
 
 .clock {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    margin: 0 0 100px 0;
 }
 
 .watch {
+    max-width: 174px;
+    max-height: 24px;
 }
 
 .watch strong {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .more {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    transition: 1s;
+    margin: 0 0 10px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
