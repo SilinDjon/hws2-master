@@ -38,7 +38,7 @@ function Clock() {
         second: "numeric"
     });
 
-    const getDate = new Intl.DateTimeFormat("en-US", {
+    const getDate = new Intl.DateTimeFormat("ru", {
         year: "numeric",
         month: "numeric",
         day: "numeric"
