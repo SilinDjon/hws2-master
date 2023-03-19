@@ -1,3 +1,18 @@
 .loader {
-    /*свг и/или анимация*/
+    width: 90px;
+    height: 90px;
+    background: url("./preloader.svg") no-repeat center;
+    border-radius: 50%;
+    animation: rotation 0.8s linear infinite;
+}
+
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
